@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
-# from script import fetch_arxiv_results
+from script import fetch_arxiv_results
 # Uncomment to test the interface and avoid using credits
-from dummy_script import fetch_arxiv_results
+#from dummy_script import fetch_arxiv_results
 
 app = Flask(__name__)
 
